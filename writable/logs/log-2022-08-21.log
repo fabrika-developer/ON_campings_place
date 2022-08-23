@@ -1,0 +1,2112 @@
+CRITICAL - 2022-08-21 08:40:05 --> Call to a member function getNews() on null
+in APPPATH/Controllers/News.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:40:39 --> Call to a member function getNews() on null
+in APPPATH/Controllers/News.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:40:40 --> Call to a member function getNews() on null
+in APPPATH/Controllers/News.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:41:16 --> Invalid file: overview.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/News.php(11): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:41:17 --> Invalid file: overview.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/News.php(11): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:42:19 --> Invalid file: index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/News.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:45:57 --> Class "App\Models\Campings_general_data_use" not found
+in APPPATH/Models/CatchAll.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(282): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Common.php(812): CodeIgniter\Config\Factories::models()
+ 9 APPPATH/Controllers/News.php(12): model()
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:45:58 --> Class "App\Models\Campings_general_data_use" not found
+in APPPATH/Models/CatchAll.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(282): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Common.php(812): CodeIgniter\Config\Factories::models()
+ 9 APPPATH/Controllers/News.php(12): model()
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:46:19 --> Class "App\Models\Campings_general_data_use" not found
+in APPPATH/Models/CatchAll.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(282): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Common.php(812): CodeIgniter\Config\Factories::models()
+ 9 APPPATH/Controllers/News.php(12): model()
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:46:20 --> Class "App\Models\Campings_general_data_use" not found
+in APPPATH/Models/CatchAll.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(282): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Common.php(812): CodeIgniter\Config\Factories::models()
+ 9 APPPATH/Controllers/News.php(12): model()
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:47:48 --> Class "App\Models\Campings_general_data_use" not found
+in APPPATH/Models/CatchAll.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(282): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Common.php(812): CodeIgniter\Config\Factories::models()
+ 9 APPPATH/Controllers/News.php(12): model()
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:47:50 --> Class "App\Models\Campings_general_data_use" not found
+in APPPATH/Models/CatchAll.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(282): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Common.php(812): CodeIgniter\Config\Factories::models()
+ 9 APPPATH/Controllers/News.php(12): model()
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:47:51 --> Class "App\Models\Campings_general_data_use" not found
+in APPPATH/Models/CatchAll.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(282): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Common.php(812): CodeIgniter\Config\Factories::models()
+ 9 APPPATH/Controllers/News.php(12): model()
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:48:53 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Controllers/News.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-21 08:48:59 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Controllers/News.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-21 08:49:55 --> Class "App\Models\Campings_general_data_use" not found
+in APPPATH/Models/CatchAll.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(282): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Common.php(812): CodeIgniter\Config\Factories::models()
+ 9 APPPATH/Controllers/News.php(13): model()
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:49:56 --> Class "App\Models\Campings_general_data_use" not found
+in APPPATH/Models/CatchAll.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(282): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Common.php(812): CodeIgniter\Config\Factories::models()
+ 9 APPPATH/Controllers/News.php(13): model()
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:50:36 --> Class "App\Models\Campings_general_data_use" not found
+in APPPATH/Models/CatchAll.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(282): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Common.php(812): CodeIgniter\Config\Factories::models()
+ 9 APPPATH/Controllers/News.php(13): model()
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:50:37 --> Class "App\Models\Campings_general_data_use" not found
+in APPPATH/Models/CatchAll.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(282): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Common.php(812): CodeIgniter\Config\Factories::models()
+ 9 APPPATH/Controllers/News.php(13): model()
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:55:53 --> Class "App\Models\Campings_general_data_use" not found
+in APPPATH/Models/CatchAll.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(282): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Config/Factories.php(152): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(122): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic()
+ 8 SYSTEMPATH/Common.php(812): CodeIgniter\Config\Factories::models()
+ 9 APPPATH/Controllers/News.php(13): model()
+10 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\News->index()
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:55:54 --> Invalid file: template_header.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(16): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:55:56 --> Invalid file: template_header.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(16): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:55:57 --> Invalid file: template_header.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(16): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:58:20 --> Invalid file: welcome_message.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(15): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:58:22 --> Invalid file: welcome_message.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(15): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:58:23 --> Invalid file: welcome_message.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(15): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:58:50 --> view(): Argument #2 ($data) must be of type array, string given, called in /app/myapp/app/Controllers/Home.php on line 18
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(18): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:58:52 --> view(): Argument #2 ($data) must be of type array, string given, called in /app/myapp/app/Controllers/Home.php on line 18
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(18): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 08:59:54 --> Invalid file: welcome_message.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(18): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:01:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(215): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Models/HomeModel.php(9): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Home.php(12): App\Models\HomeModel->getTest()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:01:37 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(215): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Models/HomeModel.php(9): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Home.php(12): App\Models\HomeModel->getTest()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:02:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(215): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Models/HomeModel.php(9): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Home.php(12): App\Models\HomeModel->getTest()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:03:30 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(215): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Models/HomeModel.php(9): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Home.php(12): App\Models\HomeModel->getTest()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:04:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(215): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Models/HomeModel.php(9): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Home.php(12): App\Models\HomeModel->getTest()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:04:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(215): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Models/HomeModel.php(9): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Home.php(12): App\Models\HomeModel->getTest()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:12:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(215): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Models/HomeModel.php(9): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Home.php(12): App\Models\HomeModel->getTest()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:13:27 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(215): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Models/HomeModel.php(9): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Home.php(12): App\Models\HomeModel->getTest()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:17:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(215): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Models/HomeModel.php(9): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Home.php(12): App\Models\HomeModel->getTest()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:20:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(215): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Models/HomeModel.php(9): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Home.php(12): App\Models\HomeModel->getTest()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:25:52 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /app/myapp/app/Controllers/Home.php on line 15
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(15): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:26:23 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:26:26 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:26:52 --> json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\Database\MySQLi\Result given
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:27:19 --> json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\Database\MySQLi\Result given
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:27:21 --> json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\Database\MySQLi\Result given
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:27:31 --> json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\Database\MySQLi\Result given
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:27:32 --> json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\Database\MySQLi\Result given
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:27:33 --> json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\Database\MySQLi\Result given
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:27:42 --> Undefined variable $campings_general_data_use
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:27:53 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:27:55 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:28:31 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /app/myapp/app/Controllers/Home.php on line 14
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(14): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:28:33 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /app/myapp/app/Controllers/Home.php on line 14
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(14): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:28:33 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /app/myapp/app/Controllers/Home.php on line 14
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(14): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:28:43 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:28:45 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:30:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH/Models/HomeModel.php on line 10.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:31:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH/Models/HomeModel.php on line 10.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:32:32 --> Undefined array key "id"
+in APPPATH/Controllers/Home.php on line 14.
+ 1 APPPATH/Controllers/Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:32:44 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:32:54 --> view(): Argument #2 ($data) must be of type array, string given, called in /app/myapp/app/Controllers/Home.php on line 14
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(14): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:33:49 --> view(): Argument #2 ($data) must be of type array, string given, called in /app/myapp/app/Controllers/Home.php on line 14
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(14): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:33:51 --> view(): Argument #2 ($data) must be of type array, string given, called in /app/myapp/app/Controllers/Home.php on line 14
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(14): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:34:03 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:34:05 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:34:06 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:34:20 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:35:54 --> Call to undefined function index()
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(14): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:37:01 --> Class "Home" not found
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(14): view()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:37:56 --> syntax error, unexpected identifier "index", expecting variable or "$"
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(14): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:38:11 --> syntax error, unexpected identifier "index", expecting variable or "$"
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(14): view()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:39:41 --> view(): Argument #2 ($data) must be of type array, string given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:39:52 --> view(): Argument #2 ($data) must be of type array, string given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:39:54 --> view(): Argument #2 ($data) must be of type array, string given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:40:28 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:40:30 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:40:32 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:43:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH/Models/HomeModel.php on line 11.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:43:52 --> Call to a member function query() on null
+in APPPATH/Models/HomeModel.php on line 9.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:43:53 --> Call to a member function query() on null
+in APPPATH/Models/HomeModel.php on line 9.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:44:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:47:15 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:47:17 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:47:19 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:49:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(10): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:49:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(10): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:50:56 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(12): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:50:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(12): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:51:28 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(11): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:51:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(11): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:51:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(11): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:51:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(11): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:51:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH/Models/HomeModel.php on line 13.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:51:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:52:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:52:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:52:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:52:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:52:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:52:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:52:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:54:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:54:43 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:55:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:55:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:55:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:55:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:55:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 09:55:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:07:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(9): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:11:32 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:12:00 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:12:16 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:13:28 --> Object of class mysqli could not be converted to string
+in APPPATH/Models/HomeModel.php on line 19.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:13:33 --> Object of class mysqli could not be converted to string
+in APPPATH/Models/HomeModel.php on line 19.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:13:46 --> view(): Argument #2 ($data) must be of type array, mysqli given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:13:47 --> view(): Argument #2 ($data) must be of type array, mysqli given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:13:48 --> view(): Argument #2 ($data) must be of type array, mysqli given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:14:23 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:16:20 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:16:35 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:17:07 --> Cannot use object of type mysqli as array
+in APPPATH/Models/HomeModel.php on line 12.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:17:08 --> Cannot use object of type mysqli as array
+in APPPATH/Models/HomeModel.php on line 12.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:18:03 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:18:32 --> Cannot use object of type mysqli as array
+in APPPATH/Models/HomeModel.php on line 12.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:18:33 --> Cannot use object of type mysqli as array
+in APPPATH/Models/HomeModel.php on line 12.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:18:38 --> Cannot use object of type mysqli as array
+in APPPATH/Models/HomeModel.php on line 12.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:19:02 --> json_decode(): Argument #1 ($json) must be of type string, mysqli given
+in APPPATH/Models/HomeModel.php on line 12.
+ 1 APPPATH/Models/HomeModel.php(12): json_decode()
+ 2 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:19:03 --> json_decode(): Argument #1 ($json) must be of type string, mysqli given
+in APPPATH/Models/HomeModel.php on line 12.
+ 1 APPPATH/Models/HomeModel.php(12): json_decode()
+ 2 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:19:13 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:19:41 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:19:42 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:19:43 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:19:55 --> Cannot access offset of type string on string
+in APPPATH/Models/HomeModel.php on line 12.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:19:57 --> Cannot access offset of type string on string
+in APPPATH/Models/HomeModel.php on line 12.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:19:57 --> Cannot access offset of type string on string
+in APPPATH/Models/HomeModel.php on line 12.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:19:58 --> Cannot access offset of type string on string
+in APPPATH/Models/HomeModel.php on line 12.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:20:15 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:20:16 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:20:17 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:20:18 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:20:30 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:20:31 --> view(): Argument #2 ($data) must be of type array, null given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:20:52 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:20:54 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:21:20 --> Undefined variable $row
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:21:22 --> Undefined variable $row
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:21:22 --> Undefined variable $row
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:21:22 --> Undefined variable $row
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:21:49 --> Undefined variable $query
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:21:51 --> Undefined variable $query
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:22:06 --> Undefined variable $row
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:23:44 --> Undefined property: CodeIgniter\View\View::$db
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:23:51 --> Undefined property: CodeIgniter\View\View::$db
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:24:44 --> Undefined variable $row
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:24:46 --> Undefined variable $row
+in APPPATH/Views/welcome_message.php on line 3.
+ 1 APPPATH/Views/welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:26:28 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:26:29 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:26:59 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:00 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:00 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:01 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:01 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:01 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:02 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:02 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:02 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:02 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:12 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:13 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:13 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:14 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:14 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:16 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:17 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:17 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:17 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:17 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:18 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:30 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:31 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:32 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:32 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:33 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:33 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:33 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:34 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:34 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:34 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:34 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:35 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:35 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:35 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:35 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:35 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:35 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:36 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:36 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:36 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:36 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:27:37 --> Undefined variable $data
+in APPPATH/Views/welcome_message.php on line 5.
+ 1 APPPATH/Views/welcome_message.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1137): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:28:05 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:28:07 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:28:09 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:28:35 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/HomeModel.php(8): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:29:15 --> view(): Argument #1 ($name) must be of type string, array given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:29:45 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:29:46 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:29:47 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:29:52 --> view(): Argument #2 ($data) must be of type array, string given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:29:53 --> view(): Argument #2 ($data) must be of type array, string given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:29:53 --> view(): Argument #2 ($data) must be of type array, string given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:29:54 --> view(): Argument #2 ($data) must be of type array, string given, called in /app/myapp/app/Controllers/Home.php on line 13
+in SYSTEMPATH/Common.php on line 1123.
+ 1 APPPATH/Controllers/Home.php(13): view()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:31:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH/Models/HomeModel.php on line 9.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-21 10:31:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH/Models/HomeModel.php on line 9.
+ 1 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-21 11:26:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bn_myapp'@'172.30.2.1' (using password: NO) in /app/myapp/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /app/myapp/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /app/myapp/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /app/myapp/app/Models/HomeModel.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+#5 /app/myapp/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#6 /app/myapp/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'172.30.2.1' (using password: NO) in /app/myapp/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /app/myapp/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /app/myapp/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /app/myapp/app/Models/HomeModel.php(8): CodeIgniter\Database\BaseConnection->query()
+#3 /app/myapp/app/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+#4 /app/myapp/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#5 /app/myapp/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#6 /app/myapp/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-21 11:26:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'172.30.2.1' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/HomeModel.php(8): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-21 11:27:02 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'campings_place' in /app/myapp/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /app/myapp/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /app/myapp/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /app/myapp/app/Models/HomeModel.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+#5 /app/myapp/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#6 /app/myapp/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'campings_place' in /app/myapp/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /app/myapp/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /app/myapp/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /app/myapp/app/Models/HomeModel.php(8): CodeIgniter\Database\BaseConnection->query()
+#3 /app/myapp/app/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+#4 /app/myapp/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#5 /app/myapp/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#6 /app/myapp/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-21 11:27:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'campings_place'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/HomeModel.php(8): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-21 11:27:32 --> mysqli_sql_exception: Table 'campings_place.campings_general_data_use' doesn't exist in /app/myapp/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/app/Models/HomeModel.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+#5 /app/myapp/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#6 /app/myapp/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-21 11:27:32 --> Table 'campings_place.campings_general_data_use' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/HomeModel.php(8): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-21 11:27:37 --> mysqli_sql_exception: Table 'campings_place.campings_general_data_use' doesn't exist in /app/myapp/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /app/myapp/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /app/myapp/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /app/myapp/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /app/myapp/app/Models/HomeModel.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /app/myapp/app/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+#5 /app/myapp/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#6 /app/myapp/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /app/myapp/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-21 11:27:37 --> Table 'campings_place.campings_general_data_use' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/HomeModel.php(8): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Home.php(11): App\Models\HomeModel->getTest()
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
